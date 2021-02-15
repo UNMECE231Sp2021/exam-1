@@ -38,7 +38,7 @@ int linked_size(DoubleLinkedList *root_node, int a);
 ```
 ## linked_min
 
-This function will iterate though the entire linked list and The minimum value of the linked list. I recommend that you take the first item of the linked list and make an 'initial minimum' then compare with the rest of the linked list. At the end of the function you must return the minimum value. Here is the function prototype.
+This function will iterate though the entire linked list and find the minimum value of the linked list. I recommend that you take the first item of the linked list and make an 'initial minimum' then compare with the rest of the linked list. At the end of the function you must return the minimum value. Here is the function prototype.
 ```cpp
 int linked_min(DoubleLinkedList *root_node);
 ```
