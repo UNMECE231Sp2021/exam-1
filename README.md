@@ -11,7 +11,7 @@ Let's talk about each function.
 
 ## linked_mean
 
-This function will sum all values in a linked list and then divide by the size of the linked list. You have two options when getting the size of the linked list: you can either count as you iterate through the linked list, or you can create a separate function that can get the size of the linked list to get the mean. Here is what the `function prototype should look like`:
+This function will sum all values in a linked list and then divide by the size of the linked list. You have two options when getting the size of the linked list: you can either count as you iterate through the linked list, or you can use `linked_size` to get the size of the linked list to get the mean. Here is what the `function prototype should look like`:
 ```cpp
     float linked_mean(DoubleLinkedList *root_node);
 ```
